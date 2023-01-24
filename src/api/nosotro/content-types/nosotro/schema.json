@@ -1,0 +1,28 @@
+{
+  "kind": "singleType",
+  "collectionName": "nosotros",
+  "info": {
+    "singularName": "nosotro",
+    "pluralName": "nosotros",
+    "displayName": "nosotro"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "nombre": {
+      "type": "string"
+    },
+    "descripcion": {
+      "type": "richtext"
+    },
+    "imagen": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

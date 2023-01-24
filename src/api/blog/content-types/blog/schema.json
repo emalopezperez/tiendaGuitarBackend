@@ -35,6 +35,13 @@
     },
     "home": {
       "type": "boolean"
+    },
+    "fondo": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
     }
   }
 }
