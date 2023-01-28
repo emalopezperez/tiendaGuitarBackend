@@ -1,11 +1,10 @@
 {
   "kind": "singleType",
-  "collectionName": "nosotros",
+  "collectionName": "header_homes",
   "info": {
-    "singularName": "nosotro",
-    "pluralName": "nosotros",
-    "displayName": "HeaderNosotros",
-    "description": ""
+    "singularName": "header-home",
+    "pluralName": "header-homes",
+    "displayName": "headerHome"
   },
   "options": {
     "draftAndPublish": true
@@ -19,12 +18,11 @@
       "type": "richtext"
     },
     "imagen": {
-      "type": "media",
-      "multiple": false,
-      "required": false,
       "allowedTypes": [
         "images"
-      ]
+      ],
+      "type": "media",
+      "multiple": false
     }
   }
 }

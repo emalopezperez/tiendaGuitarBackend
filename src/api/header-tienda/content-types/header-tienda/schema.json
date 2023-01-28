@@ -1,11 +1,10 @@
 {
   "kind": "singleType",
-  "collectionName": "nosotros",
+  "collectionName": "header_tiendas",
   "info": {
-    "singularName": "nosotro",
-    "pluralName": "nosotros",
-    "displayName": "HeaderNosotros",
-    "description": ""
+    "singularName": "header-tienda",
+    "pluralName": "header-tiendas",
+    "displayName": "headerTienda"
   },
   "options": {
     "draftAndPublish": true
@@ -19,12 +18,11 @@
       "type": "richtext"
     },
     "imagen": {
-      "type": "media",
-      "multiple": false,
-      "required": false,
       "allowedTypes": [
         "images"
-      ]
+      ],
+      "type": "media",
+      "multiple": false
     }
   }
 }
